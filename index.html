@@ -16,6 +16,32 @@
 
     <!-- Custom styles for this template -->
     <link href="./Cover Template for Bootstrap_files/cover.css" rel="stylesheet">
+
+<!--    передaчa UTM-->
+
+    <script type="text/javascript">
+
+            var param = location.search;
+
+            $(document).ready(function() {
+                $('.priceGeo').each(function() {
+                    $(this).text("");
+                });
+                $('a').each(function() {
+                    
+
+                    $(this).attr('href', 'http://artr.home-look.ru/cjct/' + param);
+
+
+                });
+            });
+
+
+    </script>
+
+    <!--    передaчa UTM-->
+
+
 </head>
 
 <body>
